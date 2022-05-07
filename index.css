@@ -1,0 +1,917 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#head::before{
+    content: "";
+    width: 100%;
+    height: 677px;
+    background-color: rgba(76, 64, 55, 0.8);
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+}
+#head{
+    width: 100%;
+    height: 677px;
+    background-image: url(bg-masthead.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    position: relative;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+#logo{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(202, 189, 189);
+    padding: 20px;
+    font-weight: bold;
+
+}
+nav{
+    display: flex;
+    position: relative;
+}
+
+#icon{
+    display: none;
+}
+#chk{
+    display: none;  
+}
+nav ul{
+    display: flex;
+    margin-left: auto;
+}
+nav ul li{
+    display: inline-block;
+    padding: 16px;
+    margin-top: 8px;
+}
+nav ul li a{
+    cursor: pointer;
+    color: rgb(202, 189, 189);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.head{
+    text-align: center;
+    position: relative;
+}
+.heading{
+    color: rgb(255, 255, 255);
+    padding-top: 170px;
+    font-size: 55px;
+}
+.underline{
+    border-bottom: 4px solid #f4623a;
+    width: 30px;
+    margin: 0 auto;
+    padding: 10px;
+}
+#head p{
+    color: rgb(209, 207, 207);
+    padding: 30px;
+    font-size: 20px;
+}
+.anchor{
+    padding-top: 20px;
+    padding-bottom: 147px;
+}
+.anchor .button{
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: #f4623a;
+    padding: 20px 36px;
+    font-size: 14px;
+    border-radius: 50px;
+}
+
+
+/*.....................home section end ............................*/
+/*.....................about section............................*/
+
+#about{
+    width: 100%;
+    text-align: center;
+    background-color: #f4623a;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.container{
+    width: 1200px;
+}
+.about-box{
+    margin: 0 auto;
+}
+
+.middle{
+    padding-top: 150px;
+    color: #fff;
+    font-size: 32px;
+}
+.underline2{
+    border-bottom: 4px solid rgb(255, 255, 255);
+    width: 40px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.container .about-box p{
+    color: rgb(227, 227, 227);
+    padding: 40px;
+    font-size: 18px;
+
+}
+.anchor2{
+    padding-top: 20px;
+    padding-bottom: 120px;
+    }
+.anchor2 .button2{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    padding: 20px 36px;
+    font-size: 14px;
+    border-radius: 50px;
+    font-weight: bold;
+    }
+
+
+    /*.....................about section end ............................*/
+/*.....................service section start............................*/
+
+#services{
+    width: 100%;
+    text-align: center;
+    font-family: "Merriweather Sans";
+}
+.services-box{
+    margin: 0 auto;
+    width: 100%;
+}
+.top{
+    padding-top: 115px;
+    font-size: 32px;
+}
+.underline3{
+    border-bottom: 4px solid #f4623a ;
+    width: 30px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.main-box{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 45px;
+    padding-bottom: 60px;
+}
+.box{
+    padding-bottom: 20px;
+}
+#myicon{
+    font-size: 40px;
+    padding: 20px;
+    color: #f4623a;
+}
+.last{
+    color: rgb(0, 0, 0);
+    font-size: 27px;
+}
+.container .main-box p{
+    color: rgb(89, 73, 73);
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+/*.....................service section end ............................*/
+/*.....................portfolio section start............................*/
+
+#portfolio{
+    width: 100%;
+    font-family: 'Merriweather Sans';
+  
+}
+.class1{
+    display: flex;
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
+.port-box{
+    height: 250px;
+    width: 33.33%;
+    position: relative;
+}
+.txt{
+    font-size: 30px;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    background-color: rgb(255, 0, 0);
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.color{
+    width:100%;
+    height:250px;
+    opacity:0;   
+    position: absolute;
+    top: 0;
+}
+.port-box:hover .color{ 
+    opacity: 1.0;
+    transition: .8s ease;
+}
+img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+   
+/*.....................portfolio section end ............................*/
+/*.....................center section start............................*/
+
+
+#center{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(24, 22, 17);
+    font-family: 'Merriweather Sans';
+}
+.center-box{
+    margin: 0 auto;
+}
+.midle{
+    padding-top: 120px;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+}
+.anchor3{
+    padding-top: 45px;
+    padding-bottom: 90px;
+}
+.anchor3 .button3{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    padding: 20px 36px;
+    font-size: 14px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+/*.....................center section end ............................*/
+/*.....................contact section start............................*/
+
+#contact-form{
+    font-family: 'Merriweather Sans';
+}
+.contect-head{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+.foot-top{
+    font-size: 30px;
+}
+.underline4{
+    border-bottom: 4px solid #f4623a;
+    width: 40px;
+    margin: 0 auto;
+    padding: 10px;
+}
+p{
+    font-size: 17px;
+    color: rgb(47, 42, 42);
+    padding-top: 20px;
+}   
+.form{
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 50px;
+
+}
+.form-control{
+    width: 100%;
+    height: 35px;
+    background: #fffefe;
+    border: 1px solid rgb(45, 40, 40);
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+}
+.btn-submit{
+    background-color: #ff3700;
+    color: white;
+    opacity: 0.5;
+    border: none;
+    cursor: pointer;
+    height: 60px;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 30px;
+    margin: 16px 30px;
+}
+.phone{
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+#myicon2{
+    font-size: 45px;
+    color: #6c757d;
+    padding-top: 20px;
+}
+.number{
+    padding-top: 10px;
+    font-size: 17px;
+    color: #6c757d;
+
+}
+
+/*.....................contact section end ............................*/
+/*.....................bottom section start............................*/
+
+
+#bottom{
+    width: 100%;
+    text-align: center;
+    background-color:rgb(244, 244, 244);
+    font-family: 'Merriweather Sans';
+}
+.botom-box{
+    margin: 0 auto;
+}
+.foot{
+    padding-top: 80px;
+    font-size: 14px;
+    color: #6c757d;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+/*....................media section start............................*/
+/*....................head section start............................*/
+
+
+@media (max-width: 598px) and (min-width:100px){
+
+ #head::before{
+    width: 100%;
+    height: 677px;
+    }
+ #head{
+     width: 100%;
+     height: 677px;
+}
+ .container{
+     width: 100%;
+}
+ nav{
+    flex-direction: column;
+    position: relative;
+    padding: 0;
+    background-color: #fff;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+} 
+ #logo{
+    padding: 20px;
+    margin: 0;
+    position: absolute;
+    color: black;
+}  
+ #chk{
+    display: block; 
+    position: absolute;
+    right: 23px;
+    top: 23px;
+    opacity: 0;
+    cursor: pointer;
+}
+ #icon{
+    display: block;
+    position: absolute;
+    right: 23px;
+    top: 23px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+ nav ul{
+    flex-direction: column;
+    margin-left: 0;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 230px;
+    top: 58px;
+    position: absolute;
+    transition: all 0.2s linear;
+    margin: 0;
+}
+ nav ul li{
+    padding: 11px;
+}
+ nav ul li a{
+    padding: 15px;
+    color: black;
+}
+ #chk:checked ~ ul{
+    display: none;
+}
+ .head{
+    text-align: center;
+    justify-content: center;
+}
+ .heading{
+    font-size: 35px;
+    padding-top: 80px;
+}
+ .underline{
+    width: 25px;   
+}
+ #head p{
+    font-size: 16px;
+}
+ .anchor{
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+ .anchor .button{
+    border-radius: 50px;
+    padding: 20px;
+}
+}
+@media (max-width: 767px) and (min-width: 599px){
+
+#head::before{
+        content: "";
+        height: 677px;
+        top: 0;
+    }
+ #head{
+     width: 100%;
+     height: 677px;
+}
+ .container{
+     width: 100%;
+}
+ nav{
+    flex-direction: column;
+    position: relative;
+    padding: 0;
+    background-color: #fff;
+    height: 80px;
+    width: 100%;
+} 
+ #logo{
+    padding: 20px;
+    margin: 0;
+    position: absolute;
+    color: black;
+}  
+ #chk{
+    display: block; 
+    position: absolute;
+    right: 23px;
+    top: 23px;
+    opacity: 0;
+    cursor: pointer;
+}
+ #icon{
+    display: block;
+    position: absolute;
+    right: 23px;
+    top: 23px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+ nav ul{
+    flex-direction: column;
+    margin-left: 0;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 230px;
+    top: 58px;
+    position: absolute;
+    transition: all 0.2s linear;
+    margin: 0;
+}
+ nav ul li{
+    padding: 11px;
+}
+ nav ul li a{
+    padding: 15px;
+    color: black;
+}
+ #chk:checked ~ ul{
+    display: none;
+}
+ .head{
+    text-align: center;
+    justify-content: center;
+}
+ .heading{
+    font-size: 35px;
+    padding-top: 110px;
+}
+ .underline{
+    width: 25px;   
+}
+ #head p{
+    font-size: 18px;
+}
+ .anchor{
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+ .anchor .button{
+    border-radius: 50px;
+    padding: 20px;
+}
+}
+@media (max-width: 1024px) and (min-width: 768px){
+
+    #head::before{
+            content: "";
+            height: 677px;
+            top: 0;
+        }
+     #head{
+         width: 100%;
+         height: 677px;
+    }
+     .container{
+         width: 100%;
+    }
+     
+     #logo{
+        padding: 20px;
+        margin-left: 30px;
+     }
+     nav ul{
+        margin-right: 30px;
+        
+    }
+     .head{
+        text-align: center;
+        justify-content: center;
+    }
+     .heading{
+        font-size: 50px;
+        padding-top: 130px;
+    }
+     .underline{
+        width: 25px;   
+    }
+     #head p{
+        font-size: 20px;
+    }
+     .anchor{
+        padding-bottom: 40px;
+        padding-top: 60px;
+    }
+     .anchor .button{
+        border-radius: 50px;
+        padding: 20px;
+    }
+}
+    
+        
+/*.....................about section media............................*/
+
+@media (max-width: 598px) and (min-width:100px){
+
+#about{
+    width: 100%;
+}
+.container .middle{
+    padding-top: 50px;
+    font-size: 26px;
+}
+.container .about-box p{   
+    font-size: 16px;
+}
+.anchor2{
+    padding-top: 40px;
+}
+.anchor2 .button2{
+    border-radius: 50px;
+    padding: 20px;
+}
+
+}
+@media (max-width: 767px) and (min-width:599px){
+    #about{
+        width: 100%;
+    }
+    .container .middle{
+       font-size: 29px;
+    }
+    .container .main-box p{   
+        font-size: 18px;
+    }
+}
+@media (max-width: 1024px) and (min-width: 768px){
+    #about{
+        width: 100%;
+    }
+    .container .middle{
+        font-size: 32px;
+    }
+    .container .main-box p{   
+        font-size: 20px;
+    }
+
+    }
+
+
+/*.....................service section media............................*/
+
+@media (max-width: 598px) and (min-width:100px){
+
+    #services{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    .services-box{
+        margin: 0 auto;
+    }
+    .top{
+        padding-top: 110px;
+        font-size: 26px;
+    }
+    .underline{
+        width: 40px;    
+    }
+    .main-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 25px;
+        text-align: center;
+        align-items: center;
+        margin-left: 40px;
+    }
+    .main-box .box{
+        margin-right: 45px;
+    }
+    #myicon{
+        font-size: 25px;
+    }
+    .last{
+        font-size: 21px;
+    }
+    .container .main-box p{
+        font-size: 16px;
+    }
+    
+}
+@media (max-width: 767px) and (min-width:599px){
+
+    #services{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    .top{
+        font-size: 29px;
+    } 
+    .main-box{
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .main-box .box{
+        width: 50%;
+    }
+    #myicon{
+        font-size: 30px;
+    }
+    .last{
+        font-size: 24px;
+    }
+    .container .main-box p{
+        font-size: 18px;
+    }
+     
+} 
+@media (max-width: 1024px) and (min-width:768px){
+
+    #services{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    .top{
+        padding-top: 110px;
+        font-size: 32px;
+    }
+    .underline{
+        width: 40px;    
+    }
+    .main-box{
+        width: 100%;
+    }
+    .main-box .box{
+        width: 100%;
+    }
+    .last{
+        font-size: 27px;
+    }
+    .container .main-box p{
+        font-size: 20px;
+    } 
+} 
+
+/*.....................portfolio section media............................*/
+
+@media (max-width: 598px) and (min-width:100px){
+
+
+    #portfolio{
+        width: 100%;
+    }
+    .class1{
+        flex-direction: column;
+        flex-wrap: nowrap;    
+    }
+    .port-box{
+        width: 100%;
+        height: 250px;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    .txt{
+        font-size: 25px;
+    }
+}
+@media (max-width: 767px) and (min-width:599px){
+
+
+    #portfolio{
+        width: 100%;
+    }
+    .class1{
+        display: flex;
+        flex-wrap: wrap;    
+    }
+    .port-box{
+        width: 50%;
+        height: 250px;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    .txt{
+        font-size: 27px;
+    }
+}
+
+
+/*.....................center section media............................*/
+
+@media (max-width: 598px) and (min-width:100px){
+    #center{
+        width: 100%;
+    }
+    .midle{
+        font-size: 26px;
+    }
+}
+@media (max-width: 767px) and (min-width:599px){
+    #center{
+        width: 100%;
+    }
+    .midle{
+        font-size: 29px;
+    }
+}
+@media (max-width: 1024px) and (min-width:768px){
+    #center{
+        width: 100%;
+    }
+    .midle{
+        font-size: 32px;
+    }
+}
+/*.....................  contact section media............................*/
+
+@media (max-width: 598px) and (min-width:100px){
+
+        #contact-form{
+            width: 100%;
+        }
+        .container{
+            width: 100%;
+        }
+        .contect-head{
+            text-align: center;
+            margin: 0 auto;
+            padding-top: 70px;
+        }
+        .foot-top{
+            font-size: 25px;
+        }
+        p{
+            font-size: 15px;
+            color: rgb(47, 42, 42);
+            padding-top: 20px;
+        }   
+        .form{
+            width: 100%;
+            margin: 0 auto;
+            padding-top: 70px;        
+        }
+        .form-control{
+            width: 80%;
+            font-size: 16px;
+
+        }
+        #myicon2{
+            margin: 0;
+        }
+        .number{
+            margin: 0;
+        }
+
+        .btn-submit{
+            width: 80%;
+            font-size: 16px;
+        }
+}
+@media (max-width: 767px) and (min-width:599px){
+    #contact-form{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    .foot-top{
+        font-size: 28px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .form-control{
+        width: 80%;
+        font-size: 18px;
+
+    }
+    .btn-submit{
+        width: 80%;
+        font-size: 18px;
+
+    }
+}
+@media (max-width: 1024px) and (min-width:768px){
+    #contact-form{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+    }
+    .foot-top{
+        font-size: 30px;
+    }
+    p{
+        font-size: 17px;
+    }
+    .form-control{
+        width: 80%;
+        font-size: 20px;
+
+    }
+    .btn-submit{
+        width: 80%;
+        font-size: 20px;
+
+    }
+}
+
